@@ -1,7 +1,12 @@
 # Quick Reference Guide for Focus Buttons
 
 ## TV Leanback Components
-
+> For the last several years, Leanback was the standard for building TV apps. It gave you components like BrowseFragment, ListRow, and CardView, which handled D-pad navigation and focus automatically.  There's a mix of tutorials and guides that still rely on Leanback but should be updated for Adaptive UI gains.
+> >
+> 
+ The problem was that Leanback was a rigid, XML-based system that was difficult to customize.
+Jetpack Compose for TV (which became stable in 2024) is a complete, from-scratch replacement. It provides its own set of TV-optimized composables that handle all the same things (like focus management and D-pad navigation) but with the power and flexibility of Compose.
+> >
 ### TVLeanbackButton
 ```kotlin
 TVLeanbackButton(
