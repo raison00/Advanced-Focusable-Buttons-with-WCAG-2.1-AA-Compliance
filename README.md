@@ -1,4 +1,4 @@
-# Advanced-Focusable-Buttons-with-WCAG-2.1-AA-Compliance
+# Advanced Adaptive UI Focusable Buttons with WCAG 2.1 AA Compliance
 Advanced Adaptive UI for Focusable Buttons using Compose - WIP - 2025
 
 📚 Documentation Hierarchy
@@ -15,7 +15,7 @@ Input Comparison
 - How different inputs work
 
 
-✨ Bonus Features
+✨ Adaptive UI Features
 
 - Input detection: Distinguish touch vs keyboard vs D-Pad
 - Live status updates: Toast-like announcements
