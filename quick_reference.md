@@ -6,7 +6,22 @@
 > 
  The problem was that Leanback was a rigid, XML-based system that was difficult to customize.
 Jetpack Compose for TV (which became stable in 2024) is a complete, from-scratch replacement. It provides its own set of TV-optimized composables that handle all the same things (like focus management and D-pad navigation) but with the power and flexibility of Compose.
-> >
+> 
+>
+>
+## How Components Were Replaced
+
+This table shows the direct replacement for the old Leanback components.
+| Old Leanback Component (XML)  | New Compose for TV Component (Kotlin) |
+| ------------------------------------------ | ------------------------ |
+| BrowseFragment / VerticalGridFragment      | TvLazyVerticalGrid     |
+| ListRow / HorizontalGridView               | TvLazyRow    |
+| CardView (Leanback's version)              | Card or StandardCardLayout     |
+| DetailsFragment                            | A custom Column or Row composable     |
+| PlaybackSupportFragment                    | A custom screen using a Media3 PlayerView    |
+| OnItemViewClickedListener                  | The onClick lambda parameter of a Card  |
+| XML Focus Attributes (android:focusable)   | Modifier.focusable() |
+
 ### TVLeanbackButton
 ```kotlin
 TVLeanbackButton(
