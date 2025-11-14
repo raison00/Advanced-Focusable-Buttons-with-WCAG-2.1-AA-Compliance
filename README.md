@@ -29,7 +29,7 @@ Input Comparison
 - Responsive layouts: Auto-adapt to screen size
 
 # Adaptive UI Examples: Compose Advanced Focus System
-### Ordered
+### WIP Adaptive comprehensive focus system with advanced features 
 1. TV Leanback Components (TVLeanbackButton.kt)
 
 * ➤➤ 4 Glow Styles: Pulse, Shimmer, Breathe, Static
